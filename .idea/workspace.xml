@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57206fde-fd6d-41f0-b8c8-d0e4b952a586" name="Default Changelist" comment="" />
+    <list default="true" id="57206fde-fd6d-41f0-b8c8-d0e4b952a586" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/FiatShamir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/FiatShamir.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Uyzj1cwfUS1nkXX5BclJ74g5Ch" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,6 +42,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -51,11 +70,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576343754288</updated>
-      <workItem from="1576343758881" duration="4704000" />
+      <workItem from="1576343758881" duration="5333000" />
+      <workItem from="1576565951903" duration="969000" />
+      <workItem from="1576595284558" duration="289000" />
+      <workItem from="1576595580331" duration="4000" />
+      <workItem from="1576597079688" duration="2929000" />
+      <workItem from="1576600120781" duration="333000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1850" height="234" key="GridCell.Tab.0.bottom" timestamp="1576600389068">
+      <screen x="0" y="0" width="1920" height="1018" />
+    </state>
+    <state width="1850" height="234" key="GridCell.Tab.0.bottom/0.0.1920.1018@0.0.1920.1018" timestamp="1576600389068" />
+    <state width="1850" height="234" key="GridCell.Tab.0.center" timestamp="1576600389066">
+      <screen x="0" y="0" width="1920" height="1018" />
+    </state>
+    <state width="1850" height="234" key="GridCell.Tab.0.center/0.0.1920.1018@0.0.1920.1018" timestamp="1576600389066" />
+    <state width="1850" height="234" key="GridCell.Tab.0.left" timestamp="1576600389064">
+      <screen x="0" y="0" width="1920" height="1018" />
+    </state>
+    <state width="1850" height="234" key="GridCell.Tab.0.left/0.0.1920.1018@0.0.1920.1018" timestamp="1576600389064" />
+    <state width="1850" height="234" key="GridCell.Tab.0.right" timestamp="1576600389067">
+      <screen x="0" y="0" width="1920" height="1018" />
+    </state>
+    <state width="1850" height="234" key="GridCell.Tab.0.right/0.0.1920.1018@0.0.1920.1018" timestamp="1576600389067" />
+    <state x="21" y="0" width="1877" height="1018" key="new project wizard" timestamp="1576600322432">
+      <screen x="0" y="0" width="1920" height="1018" />
+    </state>
+    <state x="21" y="0" width="1877" height="1018" key="new project wizard/0.0.1920.1018@0.0.1920.1018" timestamp="1576600322432" />
   </component>
 </project>

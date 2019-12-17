@@ -61,17 +61,24 @@ public class FiatShamir {
      *            Ten runs of the protocol.
      * @return
      */
-    private static BigInteger recoverSecret(BigInteger N, BigInteger X,
+    public static BigInteger recoverSecret(BigInteger N, BigInteger X,
                                             ProtocolRun[] runs) {
-        BigInteger secret;
+        BigInteger secret = BigInteger.ZERO;
+        //We loop through the array and try to find same R:s
         for (int i = 0; i < runs.length-1; i++){
             for (int j = i+1; j < runs.length; j++){
-             if (runs[i].R == runs[j].R){
-
+            //R must be same, meanwhile c must be different in order to be able to find the secret
+             if ((runs[i].R == runs[j].R) && (runs[i].c != runs[j].c)){
+                 BigInteger s1 = runs[j].s;
+                 BigInteger s2 = runs[i].s;
+                 if (runs[i].c == 0){
+                     secret = s1.divide(s2);
+                 }else{
+                     secret = s2.divide(s1);
+                 }
              }
             }
         }
-        // TODO. Recover the secret value x such that x^2 = X (mod N).
-        return BigInteger.ZERO;
+        return secret;
     }
 }
