@@ -18,34 +18,6 @@ public class FiatShamir {
         }
     }
 
-    public static void main(String[] args) {
-        String filename = "input.txt";
-        BigInteger N = BigInteger.ZERO;
-        BigInteger X = BigInteger.ZERO;
-        ProtocolRun[] runs = new ProtocolRun[10];
-        try {
-            BufferedReader br = new BufferedReader(new FileReader(filename));
-            N = new BigInteger(br.readLine().split("=")[1]);
-            X = new BigInteger(br.readLine().split("=")[1]);
-            for (int i = 0; i < 10; i++) {
-                String line = br.readLine();
-                String[] elem = line.split(",");
-                runs[i] = new ProtocolRun(
-                        new BigInteger(elem[0].split("=")[1]),
-                        Integer.parseInt(elem[1].split("=")[1]),
-                        new BigInteger(elem[2].split("=")[1]));
-            }
-            br.close();
-        } catch (Exception err) {
-            System.err.println("Error handling file.");
-            err.printStackTrace();
-            System.exit(1);
-        }
-        BigInteger m = recoverSecret(N, X, runs);
-        System.out.println("Recovered message: " + m);
-        System.out.println("Decoded text: " + decodeMessage(m));
-    }
-
     public static String decodeMessage(BigInteger m) {
         return new String(m.toByteArray());
     }
@@ -71,6 +43,8 @@ public class FiatShamir {
              if ((runs[i].R == runs[j].R) && (runs[i].c != runs[j].c)){
                  BigInteger s1 = runs[j].s;
                  BigInteger s2 = runs[i].s;
+                 //secret = s1 / s2, where s1 = r mod n * x mod n, s2 = r * x^0 mod n = r mod n
+                 //switch of s1 and s2 depending on value of c.
                  if (runs[i].c == 0){
                      secret = s1.divide(s2);
                  }else{
