@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57206fde-fd6d-41f0-b8c8-d0e4b952a586" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cryptography  programming assignment A 1.2/META-INF/Cryptography  programming assignment A 1.2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cryptography  programming assignment A 1.2/com/company/FiatShamir$ProtocolRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Cryptography  programming assignment A 1.2/com/company/FiatShamir$ProtocolRun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cryptography  programming assignment A 1.2/com/company/FiatShamir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Cryptography  programming assignment A 1.2/com/company/FiatShamir.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cryptography  programming assignment A 1.2/com/company/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Cryptography  programming assignment A 1.2/com/company/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/FiatShamir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/FiatShamir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/input.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +34,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+    <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.company.FiatShamir" />
       <module name="Cryptography  programming assignment A 1.2" />
       <RunnerSettings RunnerId="Run" />
@@ -43,11 +49,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -78,7 +79,9 @@
       <workItem from="1576597079688" duration="2929000" />
       <workItem from="1576600120781" duration="551000" />
       <workItem from="1576612389379" duration="569000" />
-      <workItem from="1576680199730" duration="58000" />
+      <workItem from="1576680199730" duration="444000" />
+      <workItem from="1576960974272" duration="1492000" />
+      <workItem from="1577010179143" duration="786000" />
     </task>
     <servers />
   </component>
@@ -86,33 +89,68 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="409" y="134" width="1275" height="854" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576680256333">
+    <state x="409" y="134" width="1275" height="854" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578427567441">
       <screen x="0" y="0" width="1920" height="1018" />
     </state>
-    <state x="409" y="134" width="1275" height="854" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1018@0.0.1920.1018" timestamp="1576680256333" />
-    <state x="730" y="377" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1576612421400">
+    <state x="409" y="134" width="1275" height="854" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1018@0.0.1920.1018" timestamp="1578427567441" />
+    <state x="730" y="377" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578414819213">
       <screen x="0" y="0" width="1920" height="1018" />
     </state>
-    <state x="730" y="377" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1018@0.0.1920.1018" timestamp="1576612421400" />
-    <state width="1850" height="234" key="GridCell.Tab.0.bottom" timestamp="1576612957973">
+    <state x="730" y="377" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1018@0.0.1920.1018" timestamp="1578414819213" />
+    <state width="1850" height="292" key="GridCell.Tab.0.bottom" timestamp="1578429269522">
       <screen x="0" y="0" width="1920" height="1018" />
     </state>
-    <state width="1850" height="234" key="GridCell.Tab.0.bottom/0.0.1920.1018@0.0.1920.1018" timestamp="1576612957973" />
-    <state width="1850" height="234" key="GridCell.Tab.0.center" timestamp="1576612957971">
+    <state width="1850" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1018@0.0.1920.1018" timestamp="1578429269522" />
+    <state width="1850" height="292" key="GridCell.Tab.0.center" timestamp="1578429269521">
       <screen x="0" y="0" width="1920" height="1018" />
     </state>
-    <state width="1850" height="234" key="GridCell.Tab.0.center/0.0.1920.1018@0.0.1920.1018" timestamp="1576612957971" />
-    <state width="1850" height="234" key="GridCell.Tab.0.left" timestamp="1576612957970">
+    <state width="1850" height="292" key="GridCell.Tab.0.center/0.0.1920.1018@0.0.1920.1018" timestamp="1578429269521" />
+    <state width="1850" height="292" key="GridCell.Tab.0.left" timestamp="1578429269520">
       <screen x="0" y="0" width="1920" height="1018" />
     </state>
-    <state width="1850" height="234" key="GridCell.Tab.0.left/0.0.1920.1018@0.0.1920.1018" timestamp="1576612957970" />
-    <state width="1850" height="234" key="GridCell.Tab.0.right" timestamp="1576612957972">
+    <state width="1850" height="292" key="GridCell.Tab.0.left/0.0.1920.1018@0.0.1920.1018" timestamp="1578429269520" />
+    <state width="1850" height="292" key="GridCell.Tab.0.right" timestamp="1578429269522">
       <screen x="0" y="0" width="1920" height="1018" />
     </state>
-    <state width="1850" height="234" key="GridCell.Tab.0.right/0.0.1920.1018@0.0.1920.1018" timestamp="1576612957972" />
+    <state width="1850" height="292" key="GridCell.Tab.0.right/0.0.1920.1018@0.0.1920.1018" timestamp="1578429269522" />
+    <state width="1850" height="292" key="GridCell.Tab.1.bottom" timestamp="1578429269525">
+      <screen x="0" y="0" width="1920" height="1018" />
+    </state>
+    <state width="1850" height="292" key="GridCell.Tab.1.bottom/0.0.1920.1018@0.0.1920.1018" timestamp="1578429269525" />
+    <state width="1850" height="292" key="GridCell.Tab.1.center" timestamp="1578429269524">
+      <screen x="0" y="0" width="1920" height="1018" />
+    </state>
+    <state width="1850" height="292" key="GridCell.Tab.1.center/0.0.1920.1018@0.0.1920.1018" timestamp="1578429269524" />
+    <state width="1850" height="292" key="GridCell.Tab.1.left" timestamp="1578429269523">
+      <screen x="0" y="0" width="1920" height="1018" />
+    </state>
+    <state width="1850" height="292" key="GridCell.Tab.1.left/0.0.1920.1018@0.0.1920.1018" timestamp="1578429269523" />
+    <state width="1850" height="292" key="GridCell.Tab.1.right" timestamp="1578429269524">
+      <screen x="0" y="0" width="1920" height="1018" />
+    </state>
+    <state width="1850" height="292" key="GridCell.Tab.1.right/0.0.1920.1018@0.0.1920.1018" timestamp="1578429269524" />
+    <state x="475" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1578425307679">
+      <screen x="0" y="0" width="1920" height="1018" />
+    </state>
+    <state x="475" y="259" key="com.intellij.ide.util.TipDialog/0.0.1920.1018@0.0.1920.1018" timestamp="1578425307679" />
     <state x="21" y="0" width="1877" height="1018" key="new project wizard" timestamp="1576600322432">
       <screen x="0" y="0" width="1920" height="1018" />
     </state>
     <state x="21" y="0" width="1877" height="1018" key="new project wizard/0.0.1920.1018@0.0.1920.1018" timestamp="1576600322432" />
+    <state x="578" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1577010806744">
+      <screen x="0" y="0" width="1920" height="1018" />
+    </state>
+    <state x="578" y="0" key="refactoring.ChangeSignatureDialog/0.0.1920.1018@0.0.1920.1018" timestamp="1577010806744" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/FiatShamir.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
